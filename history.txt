@@ -1,0 +1,23 @@
+IMAGE          CREATED       CREATED BY                                      SIZE      COMMENT
+996b638b085f   4 hours ago   USER 1000                                       0B        buildkit.dockerfile.v0
+<missing>      4 hours ago   HEALTHCHECK &{["CMD-SHELL" "wget --spider 0.…   0B        buildkit.dockerfile.v0
+<missing>      4 hours ago   ENTRYPOINT ["python" "-m" "app.app"]            0B        buildkit.dockerfile.v0
+<missing>      4 hours ago   COPY app ./app # buildkit                       20.5kB    buildkit.dockerfile.v0
+<missing>      5 hours ago   RUN |2 LAB_LOGIN=matveykov LAB_TOKEN=e10f26c…   14.7MB    buildkit.dockerfile.v0
+<missing>      5 hours ago   COPY requirements.txt . # buildkit              16.4kB    buildkit.dockerfile.v0
+<missing>      5 hours ago   LABEL org.lab.login=matveykov org.lab.token=…   0B        buildkit.dockerfile.v0
+<missing>      5 hours ago   STOPSIGNAL SIGTERM                              0B        buildkit.dockerfile.v0
+<missing>      5 hours ago   ARG LAB_LOGIN=matveykov LAB_TOKEN=e10f26c4aa…   0B        buildkit.dockerfile.v0
+<missing>      5 hours ago   WORKDIR /opt/app                                12.3kB    buildkit.dockerfile.v0
+<missing>      5 hours ago   USER root                                       0B        buildkit.dockerfile.v0
+<missing>      2 weeks ago   CMD ["python3"]                                 0B        buildkit.dockerfile.v0
+<missing>      2 weeks ago   RUN /bin/sh -c set -eux;  for src in idle3 p…   16.4kB    buildkit.dockerfile.v0
+<missing>      2 weeks ago   RUN /bin/sh -c set -eux;   apk add --no-cach…   48MB      buildkit.dockerfile.v0
+<missing>      2 weeks ago   ENV PYTHON_SHA256=668391afabd5083faafa454375…   0B        buildkit.dockerfile.v0
+<missing>      2 weeks ago   ENV PYTHON_VERSION=3.9.24                       0B        buildkit.dockerfile.v0
+<missing>      2 weeks ago   ENV GPG_KEY=E3FF2839C048B25C084DEBE9B26995E3…   0B        buildkit.dockerfile.v0
+<missing>      2 weeks ago   RUN /bin/sh -c set -eux;  apk add --no-cache…   3.02MB    buildkit.dockerfile.v0
+<missing>      2 weeks ago   ENV LANG=C.UTF-8                                0B        buildkit.dockerfile.v0
+<missing>      2 weeks ago   ENV PATH=/usr/local/bin:/usr/local/sbin:/usr…   0B        buildkit.dockerfile.v0
+<missing>      2 weeks ago   CMD ["/bin/sh"]                                 0B        buildkit.dockerfile.v0
+<missing>      2 weeks ago   ADD alpine-minirootfs-3.22.2-x86_64.tar.gz /…   8.99MB    buildkit.dockerfile.v0
